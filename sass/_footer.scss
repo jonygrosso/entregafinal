@@ -1,0 +1,9 @@
+.footer{
+    grid-area: footer;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(79, 79, 214);
+    color: white;
+}

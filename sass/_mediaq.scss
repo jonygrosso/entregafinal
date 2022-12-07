@@ -1,0 +1,27 @@
+
+/*Query Index y empresa*/
+@media screen and (max-width:600px)
+{
+    .container1 {
+      grid-template-columns: 1fr;
+     
+      grid-template-areas:
+        "header"
+        "moving"
+        "section2"
+        "section3"
+        "footer";
+    }
+    .container2{
+      grid-template-columns: 1fr;
+     
+      grid-template-areas:
+        "header"
+        "section1"
+        "section2"
+        "section3"
+        "section4"
+        "footer";
+
+    }
+  }

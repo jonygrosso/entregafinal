@@ -1,0 +1,17 @@
+$azul:rgba(0, 0, 255, 0.263);
+$negros:solid black;
+.header{
+    grid-area: header;
+    nav {
+        ul {
+            li {
+                &:hover{
+                background-color: $azul;
+                border-radius: $negros;
+                transform: scale(1.1, 1.1) 
+                }
+            }
+        }
+
+    }
+}
