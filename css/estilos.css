@@ -27,9 +27,11 @@
   .container1 .moving {
     grid-area: moving; }
   .container1 .section2 {
-    grid-area: section2; }
+    grid-area: section2;
+    padding-top: 5rem; }
   .container1 .section3 {
-    grid-area: section3; }
+    grid-area: section3;
+    padding-top: 5rem; }
 
 .container2 {
   display: grid;
@@ -64,6 +66,10 @@
     flex-direction: column;
     display: flex;
     align-items: center; }
+
+.p {
+  font-size: 1rem;
+  font-weight: bold; }
 
 .h2 {
   border-radius: 3px;
