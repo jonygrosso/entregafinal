@@ -44,16 +44,36 @@
         "section3 section3 section4 section4"
         "footer footer footer footer";
           .section1{
+            margin-left: 10px;
+            margin-right: 10px;
             grid-area: section1;
+            flex-direction: column;
+            display:flex;
+            align-items:center;
           }
           .section2{
-            grid-area: section2;        
+            margin-left: 10px;
+            margin-right: 10px;
+            grid-area: section2; 
+            flex-direction: column;
+            display:flex;
+            align-items:center;       
           }
           .section3{
+            margin-left: 10px;
+            margin-right: 10px;
             grid-area: section3;
+            flex-direction: column;
+            display:flex;
+            align-items:center;
           }
           .section4{
+            margin-left: 10px;
+            margin-right: 10px;
             grid-area: section4;
+            flex-direction: column;
+            display:flex;
+            align-items:center;
           }
       }
       .h2{
